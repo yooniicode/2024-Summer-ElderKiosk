@@ -1,0 +1,83 @@
+.input-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'SUITE-Regular', sans-serif;
+}
+
+.header {
+    margin-bottom: 20px;
+    font-family: 'SUITE SemiBold', sans-serif;
+    color: #282c34;
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'SUITE Light', sans-serif;
+    color: #282c34;
+}
+
+.input-box {
+    margin-top: 20px;
+    font-family: 'SUITE-Regular', sans-serif;
+}
+
+.id-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'SUITE-Regular', sans-serif;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.keypad-button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'SUITE Heavy', sans-serif;
+}
+
+.button-row {
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'SUITE-Regular', sans-serif;
+}
+
+.cancel {
+    background-color: #d9534f;
+    color: white;
+}
+
+.confirm {
+    background-color: #5bc0de;
+    color: white;
+}
+
